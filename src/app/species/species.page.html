@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Species</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-app>
+    <ion-content>
+          <ion-list>
+  
+              <ion-item *ngfor="let species of data">
+                <ion-lable> {{ species.name }} </ion-lable>
+              </ion-item>
+  
+          </ion-list>
+    </ion-content>
+  </ion-app>

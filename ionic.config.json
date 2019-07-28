@@ -1,0 +1,7 @@
+{
+  "name": "starwar",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

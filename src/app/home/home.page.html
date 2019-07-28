@@ -1,0 +1,36 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+  <ion-app>
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Main Page</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-card>
+        <ion-card-content>
+          <ion-item>
+              <ion-button expand="full" size="large" (click)="navigate_characters()" value = "Characters">Characters</ion-button>
+          </ion-item>
+          <ion-item>
+              <ion-button expand="full" size="large" (click)="navigate_Films()" value = "Films">Films</ion-button>
+          </ion-item>
+          <ion-item>
+              <ion-button expand="full" size="large" (click)="navigate_Species()" value = "Species">Species</ion-button>
+          </ion-item>
+          <ion-item>
+              <ion-button expand="full" size="large" (click)="navigate_Starship()" value = "Starship">Starship</ion-button>
+          </ion-item>
+          <ion-item>
+              <ion-button expand="full" size="large" (click)="navigate_Vehicles()" value = "Vehicles">Vehicles</ion-button>
+          </ion-item>
+          <ion-item>
+              <ion-button expand="full" (click)="navigate_Planets()" size="large">Planets</ion-button>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+    </ion-content>
+  </ion-app>
+</body>

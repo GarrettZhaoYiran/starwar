@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Vehicles</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-app>
+    <ion-content>
+          <ion-list>
+  
+              <ion-item *ngfor="let vehicles of data">
+                <ion-lable> {{ vehicles.name }} </ion-lable>
+              </ion-item>
+  
+          </ion-list>
+    </ion-content>
+  </ion-app>

@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Starship</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-app>
+    <ion-content>
+          <ion-list>
+  
+              <ion-item *ngfor="let starships of data">
+                <ion-lable> {{ starships.name }} </ion-lable>
+              </ion-item>
+  
+          </ion-list>
+    </ion-content>
+  </ion-app>
